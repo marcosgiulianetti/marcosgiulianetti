@@ -1,0 +1,346 @@
+*{
+	font-family: montserrat;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+body{
+	background-image: url(pictures/wallpaper.jpg);
+	background-position: center;
+	min-height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+-barra-lateral{
+	position: absolute;
+	background-color: white;
+	height: 1000px;
+	width: 70px;
+	opacity: 0.7;
+}
+.settings{
+	position: absolute;
+	top: 10px;
+	left: 9px;
+	height: 50px;
+	width: 50px;
+}
+
+.fundo{
+	width: 1200px;
+	background: #f1f1f1;
+	height: 870px;
+	padding: 30px 40px;
+	border-radius: 10px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 12px;
+
+}
+
+.nome{
+	position: absolute;
+}
+
+.nomee{
+	width: 400px;
+	position: absolute;
+	top: 40px;
+	border: none;
+	color: #333;
+	outline: none;
+	padding: 0px 5px;
+	border-bottom: 2px solid #adadad;
+	background: none;
+	font-size: 24px;
+}
+
+.classe{
+	border: none;
+	border-bottom: 2px solid #adadad;
+	background: none;
+}
+
+.cima{
+	position: absolute;
+	top: 30px;
+	left: 570px;
+}
+
+.antecedente{
+	position: absolute;
+	top: 0px;
+	left: 170px;
+}
+
+.antecedentea{
+	border: none;
+	border-bottom: 2px solid #adadad;
+	background: none;
+}
+
+.tendencia{
+	position: absolute;
+	top: 0px;
+	left: 370px;
+}
+
+.tendenciaa{
+	border: none;
+	border-bottom: 2px solid #adadad;
+	background: none;
+}
+
+.jogador{
+	position: absolute;
+	top: 50px;
+}
+
+.jogadora{
+	border: none;
+	border-bottom: 2px solid #adadad;
+	background: none;
+}
+
+.raca{
+	position: absolute;
+	top: 50px;
+	left: 170px;
+}
+
+.racaa{
+	border: none;
+	border-bottom: 2px solid #adadad;
+	background: none;
+}
+
+.exp{
+	position: absolute;
+	top: 50px;
+	left: 370px;
+	width: 1500%;
+}
+
+.expa{
+	border: none;
+	border-bottom: 2px solid #adadad;
+	background: none;
+}
+
+.lvl{
+	position: absolute;
+	top: 50px;
+	left: 570px;
+	text-align: none;
+}
+
+.lvla{
+	width: 30px;
+	text-align: center;
+	border: none;
+	outline: none;
+	font-size: 12px;
+	border-bottom: 2px solid #adadad;
+	background: none;
+}
+
+.mudar{
+	font-size: 14px;
+	position: absolute;
+	width: 300px;
+	top: 70px;
+}
+
+.Aforca{
+	border: 2px solid;
+	border-color: #8e868b;
+	position: absolute;
+	width: 90px;
+	height: 70px;
+	border-radius: 15px;
+	top: 230px;
+	left: 360px;
+}
+
+.atributos{
+}
+
+
+.Adestreza{
+	border: 2px solid;
+	border-color: #8e868b;
+	position: absolute;
+	width: 90px;
+	height: 70px;
+	border-radius: 15px;
+	top: 330px;
+	left: 360px;
+}
+
+.Aconstituicao{
+	border: 2px solid;
+	border-color: #8e868b;
+	position: absolute;
+	width: 90px;
+	height: 70px;
+	border-radius: 15px;
+	top: 430px;
+	left: 360px;
+}
+
+.Ainteligencia{
+	border: 2px solid;
+	border-color: #8e868b;
+	position: absolute;
+	width: 90px;
+	height: 70px;
+	border-radius: 15px;
+	top: 530px;
+	left: 360px;
+}
+
+.Asabedoria{
+	border: 2px solid;
+	border-color: #8e868b;
+	position: absolute;
+	width: 90px;
+	height: 70px;
+	border-radius: 15px;
+	top: 630px;
+	left: 360px;
+}
+
+.Acarisma{
+	border: 2px solid;
+	border-color: #8e868b;
+	position: absolute;
+	width: 90px;
+	height: 70px;
+	border-radius: 15px;
+	top: 730px;
+	left: 360px;
+}
+
+.for{
+	position: absolute;
+	left: 28px;
+	top: 50px;
+	font-size: 14px;
+}
+
+.des{
+	position: absolute;
+	left: 28px;
+	top: 50px;
+	font-size: 14px;
+}
+
+.con{
+	position: absolute;
+	left: 28px;
+	top: 50px;
+	font-size: 14px;
+}
+
+.int{
+	position: absolute;
+	left: 28px;
+	top: 50px;
+	font-size: 14px;
+}
+
+.sab{
+	position: absolute;
+	left: 28px;
+	top: 50px;
+	font-size: 14px;
+}
+
+.car{
+	position: absolute;
+	left: 28px;
+	top: 50px;
+	font-size: 14px;
+}
+
+#cfor{
+	border: none;
+	background: none;
+	border-bottom: 2px solid #adadad;
+	height: 20px;
+	width: 40px;
+	position: absolute;
+	left: 24px;
+	top: 20px;
+	font-size: 28px;
+	text-align: center;
+}
+
+#cdes{
+	border: none;
+	background: none;
+	border-bottom: 2px solid #adadad;
+	height: 20px;
+	width: 40px;
+	position: absolute;
+	left: 24px;
+	top: 20px;
+	font-size: 28px;
+	text-align: center;
+}
+
+#ccon{
+	border: none;
+	background: none;
+	border-bottom: 2px solid #adadad;
+	height: 20px;
+	width: 40px;
+	position: absolute;
+	left: 24px;
+	top: 20px;
+	font-size: 28px;
+	text-align: center;
+}
+
+#cint{
+	border: none;
+	background: none;
+	border-bottom: 2px solid #adadad;
+	height: 20px;
+	width: 40px;
+	position: absolute;
+	left: 24px;
+	top: 20px;
+	font-size: 28px;
+	text-align: center;
+}
+
+#csab{
+	border: none;
+	background: none;
+	border-bottom: 2px solid #adadad;
+	height: 20px;
+	width: 40px;
+	position: absolute;
+	left: 24px;
+	top: 20px;
+	font-size: 28px;
+	text-align: center;
+}
+
+#ccar{
+	border: none;
+	background: none;
+	border-bottom: 2px solid #adadad;
+	height: 20px;
+	width: 40px;
+	position: absolute;
+	left: 24px;
+	top: 20px;
+	font-size: 28px;
+	text-align: center;
+}

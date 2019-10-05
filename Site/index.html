@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" charset="utf-8"></script>
+	<script language="javascript" src="script.js"></script>
+	<meta charset="utf-8">
+	<title>Login</title>
+
+</head>
+<body>
+
+	<form method="POST" action="index.html" class="login-form">
+		<h1>Login</h1>
+
+		<div class="txtb">
+			<input type="text" name="username" id="username">
+			<span data-placeholder="Nome de Usuário"></span>
+		</div>
+
+		<div class="txtb">
+			<input type="password" name="password" id="password">
+			<span data-placeholder="Senha"></span>
+		</div>
+
+		<input type="submit" name="Login" value="Entrar" class="logbtn" onclick="send()">
+
+		<div class="bottom-text">
+			Ainda não possui um cadastro? <a href="singup.html">Cadastre-se</a>
+		</div>
+
+		<script type="text/javascript">
+			$(".txtb input").on("focus",function(){
+				$(this).addClass("focus");
+			});
+			$(".txtb input").on("blur",function(){
+				if($(this).val() == "")
+				$(this).removeClass("focus");
+			});
+		</script>	
+
+	</form>
+
+</body>
+</html>
